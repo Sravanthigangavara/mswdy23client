@@ -1,0 +1,25 @@
+.sidebar {
+    width: 300px;
+    /* background-color: #2d3e50; */
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+  }
+  
+  .sidebar-button {
+    /* background-color: #2d3e50; */
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar-button:hover {
+    background-color: #1a2739;
+  }
+  .sidebar-item{
+    padding-bottom: 20px;
+    width: 250px;
+  }

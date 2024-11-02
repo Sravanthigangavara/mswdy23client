@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0; /* Light grey background */
+    border-bottom: 4px solid #bc0a25; /* Red border bottom */
+}
+
+.logout-header {
+    display: flex;
+    justify-content: flex-end; /* Align logout button to the right */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(188, 10, 33); /* Background color for the second header */
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: #b5121b; /* Red color for title text */
+    font-weight: bold;
+}
+
+.erp {
+    color: #2c8adb; /* Blue color for ERP text */
+    font-style: italic;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.student-id {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logout-container {
+    flex: 1; /* Allow the logout container to grow and fill the space */
+}
+
+.logout-button {
+    background-color: #b5121b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 1350px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #94101a; /* Slightly darker red on hover */
+}
